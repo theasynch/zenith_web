@@ -1,0 +1,4 @@
+1) Live countdown to fest
+2) Location and contact details
+3) Carousel cards for events
+4) Button under the main logo on home screen to register    

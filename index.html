@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pcstyle.css">
+    <link rel="icon" type="image" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="mobstyle.css" media="screen and (max-width: 1080px)">
+    <title>ZENITH'24 | Home</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+<div class="mottotime">
+    <div class="section0">
+        <ul class="registration text" id="list1">   
+            <li id="navbar-li">REGISTRATIONS NOW OPEN !</li>
+            <li id="navbar-li">REGISTRATIONS NOW OPEN !</li>
+            <li id="navbar-li">REGISTRATIONS NOW OPEN !</li>
+            <li id="navbar-li">REGISTRATIONS NOW OPEN !</li>
+    
+        
+        </ul>
+        <ul class="nav_links" id="list0">   
+            <li id="navbar-li"><a id="navbar-a"href="#">Register</a></li>
+            <li id="navbar-li"><a id="navbar-a"href="#section3">About</a></li>
+            <li id="navbar-li"><a id="navbar-a"href="#section3">Events</a></li>
+            <li id="navbar-li"><a id="navbar-a"href="https://instagram.com/zenith.at.sacs">Instagram <b>↗</b></a></li>
+            
+        
+        </ul>
+        
+    </div>
+    <div class="motto">
+        <img src="icon.png">
+        
+        <div class="centered">
+            <p>ST. ARNOLD'S CENTRAL SCHOOL, PUNE</p>
+            <h1>ZENITH</h1>
+            <p>FESTIVAL'24</p>
+        </div>
+    </div>
+    <div class="timer">
+        <div>
+            <p id="days">00</p>
+            <span>Days</span>
+        </div>
+        <h3>:</h3>
+        <div>
+            <p id="hours">00</p>
+            <span>Hours</span>
+        </div>
+        <h3>:</h3>
+        <div>
+            <p id="minutes">00</p>
+            <span>Minutes</span>
+        </div>
+        <h3>:</h3>
+        <div>
+            <p id="seconds">00</p>
+            <span>Seconds</span>
+        </div>
+
+    </div> 
+    
+</div>    
+<script>
+    var countDownDate = new Date("Dec 23, 2024 00:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+    },1000);
+</script>
+
+
+
+
+
+
+
+    </div>
+    <div class="section1">
+        <h1>From sun up,<br>to sun down-</h1>
+    </div>
+    <div class="section2">
+        <h1>We've got the<br>best party in town</h1>
+    </div>
+    <div class="features" id="features">
+        <h3>WHAT DO WE OFFER?</h3>  
+        <ul class="cards" id="cards">
+            <li class = "feature-cards"><p><strong>Paper Quality</strong></p><p>Thick Matte 260 GSM Glossy Paper to ensure premium artwork.</p></li>
+            <li class = "feature-cards"><p><strong>Premium Inks</strong></p><p>Gicleé printed for high contrast, high quality colors.<br>   </p></li>
+            <li class = "feature-cards"><p><strong>Free Shipping</strong></p><p>We now offer Free Shipping for 3 or more orders!<br>   </p></li>
+            <li class = "feature-cards"><p><strong>Damage Protection</strong></p><p>We ship everything in a protective case. Ensuring safety of the product.</p></li>
+
+        </ul>
+    </div>
+    <div class="section3" id="section3">
+        <p>QUICK LINKS</p>
+        <h1 id="redirects"><a  href="#">Gallery<b>↗</b></a></h1>
+        <h1 id="redirects"><a  href="#">Instagram<b>↗</b></a></h1>
+        <h1 id="redirects"><a  href="#">Contact Us<b>↗</b></a></h1>
+    </div>      
+    
+</body>
+<footer class="footer">
+    <img src = "invert.png">
+    <ul class = "footerul1">
+        <p>MISCELLANEOUS</p>
+        <li id="footerli"><a id="foootera"href="#section3">St. Arnold's Central School<b> ↗</b></a></li>
+        <li id="footerli"><a id="foootera"href="#">Event Team<b> ↗</b></a></li>
+        <li id="footerli"><a id="foootera"href="https://instagram.com/zenith.at.sacs">Instagram <b>↗</b></a></li>
+    </ul>
+    <ul class = "footerul2">
+        <li id="footerli">Copyright © 2024.</li>
+        <li id="footerli">All rights reserved under MIT License 2024</li>
+        <li id="footerli">made by Om Awthankar</li>
+        <li id="footerli">for ZENITH'24</a></li>
+    </ul>
+</footer>
+
+</html>
