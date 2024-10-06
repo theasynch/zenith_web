@@ -20,7 +20,7 @@ body{
 ul#list1{
     display: flex;
     justify-content: space-evenly;
-    background-color:#2c2c2c;
+    background-color:#161616;
     list-style: none;
     padding: 0 20px 0 20px;
 }
@@ -31,7 +31,7 @@ ul#list1 li{
     font-weight: 200;
     color:#ededed;
     text-decoration: none;
-    opacity: 0.6;
+    opacity: 0.7;
 }
     
   
@@ -63,6 +63,7 @@ ul#list0 li a b{
 }
 ul#list0 li a:hover{
     opacity: 1;
+    font-weight: 500;
 }
 .mottotime{
     background-color: #000;
