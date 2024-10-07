@@ -81,7 +81,7 @@ h2#feature1-title {
     padding-top: 50px;
     padding-bottom: 30px;
     color: rgb(224, 224, 224);
-    font-family: "Playfair Display";
+    font-family: "Noto Serif Display";
     font-weight: 400;
     font-size: 40px;
 }
@@ -109,7 +109,7 @@ h2#feature2-title {
     color: rgb(224, 224, 224);
     font-family: "Noto Serif Display";
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h4#feature2-title {
