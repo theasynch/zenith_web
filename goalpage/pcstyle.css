@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/engage');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+
+}
+
+
+ul#list0{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 2.2em 41.25em 0px 41.25em;
+}
+
+ul#list0 li{
+    font-family: "Noto Serif Display";
+    font-size: 22px;
+    font-weight: 200;
+    
+}
+
+ul#list0 li a{
+    color:#ededed;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    padding: 0 13.2px 0 13.2px;
+}
+
+ul#list0 li a b{
+    font-size: 16.5px !important;
+}
+ul#list0 li a:hover{
+    opacity: 1;
+    font-weight: 500;
+}
+
+.logo{
+    padding: 5em 3em 5em 3em;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.logo h1{
+    text-align: center;
+    color: #ededed;
+    padding-top: 11px;
+    font-family: "Engage";
+    opacity: 65%;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.logo p{
+    text-align: center;
+    color: #ededed;
+    font-family: "Noto Serif Display";
+    font-size: 5em;
+    font-weight: 300;
+    letter-spacing: -0.06em;
+    opacity: 0.75;
+
+}
+
+.logo img{
+   padding-top: 4em;
+}
+
+
+.key-features-content {
+    border-top: 1px solid rgb(83, 83, 83);
+    border-bottom: 1px solid rgb(83, 83, 83);
+    background-color: #0c0c0c;
+    padding: 30px 7%;
+}
+
+
+h2#feature1-title {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #ededed;
+    font-family: "Noto Serif Display";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h4#feature1-title {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 45.5em;
+    color: #ededed;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+h2#feature2-title {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #ededed;
+    font-family: "Noto Serif Display";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h4#feature2-title {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 900px;
+    color: #ededed;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+.highlight{
+    background-color: #ededed;
+    opacity: 0.75;
+    color:#0c0c0c;
+    border-radius: 2px;
+}
+
