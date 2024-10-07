@@ -136,11 +136,20 @@ ul#list0 li a:hover{
     justify-content: center;
 }
 
+.sections{
+    background:#b9b8b8 ;
+}
+
+.sectionimg{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
 
 .section1{
     padding:55px 55px; 
-    background-color: #b9b8b8;
 }
+
 
 .section1 h1{
     font-family: "Poppins";
@@ -162,7 +171,7 @@ ul#list0 li a:hover{
 .section2 h1{
     font-family: "Poppins";
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 110px;
     padding-right: 100px;
     color:#0c0c0c;
     font-size: 5em;
