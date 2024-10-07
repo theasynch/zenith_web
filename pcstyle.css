@@ -69,6 +69,7 @@ ul#list0 li a:hover{
     background-color: #000;
 }
 .motto {
+    position: relative;
     text-align: center;
     padding-top: 8.2em;
     padding-bottom: 6.9em;
